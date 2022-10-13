@@ -1,0 +1,13 @@
+author:
+  name: Ben Mills
+  email: ben@unfiniti.com
+platforms:
+  - macos
+setup:
+  macos:
+    steps:
+      - name: Configure files
+        files:
+        - source: vimbundles/docker
+          target: $HOME/.vimbundles/docker
+          operation: symlink
